@@ -1,0 +1,3 @@
+[submodule "MordloxEngine/vendor/spdlog"]
+	path = MordloxEngine/vendor/spdlog
+	url = https://hub.gitmirror.com/https://github.com/gabime/spdlog
