@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #pragma once
 
 #ifdef ME_PLATFORM_WINDOWS
@@ -16,4 +17,19 @@ int main(int argc, char** argv)
 	app ->Run();
 	delete app;
 }
+=======
+#pragma once
+
+#ifdef ME_PLATFORM_WINDOWS
+
+extern MordloxEngine::Application* MordloxEngine::CreateApplication();
+
+
+int main(int argc, char** argv)
+{
+	auto app = MordloxEngine::CreateApplication();
+	app ->Run();
+	delete app;
+}
+>>>>>>> 0af96e88ef10a06fe21de6a49dd3d90709abc66f
 #endif
