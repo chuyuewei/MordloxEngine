@@ -30,9 +30,15 @@
     <ClInclude Include="src\MordloxE\EntryPoint.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="src\MordloxE\Log.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\MordloxE\Application.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MordloxE\Log.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
