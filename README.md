@@ -26,7 +26,7 @@ MordloxEngine 是一个使用 C++20 开发的轻量级游戏引擎。它旨在�
 ### 克隆仓库
 
 ```bash
-git clone https://github.com/your-username/MordloxEngine.git
+git clone https://github.com/chuyuewei/MordloxEngine.git
 cd MordloxEngine
 ```
 
